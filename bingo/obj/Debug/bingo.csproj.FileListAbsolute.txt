@@ -1,0 +1,10 @@
+C:\Users\Djole-Ps\source\repos\bingo\bingo\bin\Debug\bingo.exe.config
+C:\Users\Djole-Ps\source\repos\bingo\bingo\bin\Debug\bingo.exe
+C:\Users\Djole-Ps\source\repos\bingo\bingo\bin\Debug\bingo.pdb
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.csprojAssemblyReference.cache
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.Form1.resources
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.Properties.Resources.resources
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.csproj.GenerateResource.cache
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.csproj.CoreCompileInputs.cache
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.exe
+C:\Users\Djole-Ps\source\repos\bingo\bingo\obj\Debug\bingo.pdb
