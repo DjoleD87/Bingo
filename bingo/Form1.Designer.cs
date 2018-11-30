@@ -200,7 +200,7 @@
             this.bigNumberText.AutoSize = true;
             this.bigNumberText.Font = new System.Drawing.Font("Engravers MT", 120F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bigNumberText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bigNumberText.Location = new System.Drawing.Point(9, 72);
+            this.bigNumberText.Location = new System.Drawing.Point(46, 71);
             this.bigNumberText.Name = "bigNumberText";
             this.bigNumberText.Size = new System.Drawing.Size(0, 186);
             this.bigNumberText.TabIndex = 3;
@@ -878,7 +878,7 @@
             // 
             this.startPicture.BackColor = System.Drawing.Color.Transparent;
             this.startPicture.Image = ((System.Drawing.Image)(resources.GetObject("startPicture.Image")));
-            this.startPicture.Location = new System.Drawing.Point(28, 72);
+            this.startPicture.Location = new System.Drawing.Point(28, 60);
             this.startPicture.Name = "startPicture";
             this.startPicture.Size = new System.Drawing.Size(244, 209);
             this.startPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

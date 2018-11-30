@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace bingo
 {
+    
     public partial class Form1 : Form
     {
         int counter = 212;
@@ -73,12 +74,65 @@ namespace bingo
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            
+
             Random myRnd = new Random();
-            int rndNumber = myRnd.Next(1, 3);
+            int rndNumber = myRnd.Next(1, 69);
             bigNumberText.Text = rndNumber.ToString();
             textBoxNumber.Text = textBoxNumber.Text + rndNumber.ToString() + "  ";
+            ChangeBigNoPosition();
+            MoveSmallPictures();
+            
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            newGameBtn.Visible = true;
+            bingoBtn.Visible = true;
+            timer2.Stop();
+            
+
+
+        }
+        private void NewGameVisible()
+        {
+            pictureBox1.Visible = true;
+            pictureBox2.Visible = true;
+            pictureBox3.Visible = true;
+            pictureBox4.Visible = true;
+            pictureBox5.Visible = true;
+            pictureBox6.Visible = true;
+            pictureBox7.Visible = true;
+            pictureBox8.Visible = true;
+            pictureBox9.Visible = true;
+            pictureBox10.Visible = true;
+            startPicture.Visible = true;
+            newGameBtn.Visible = false;
+            bingoP.Visible = false;
+            bingoBtn.Visible = false;
+        }
+
+        private void bingoBtn_Click(object sender, EventArgs e)
+        {
+            bingoP.Visible = true;
+            bingoBtn.Visible = false;
+            startBtn.Visible = false;
+            button1.Visible = false;
+        }
+        private void ChangeBigNoPosition()
+        {
+            Random myRnd = new Random();
+            int rndNumber = myRnd.Next(1, 69);
+            if (rndNumber < 10)
+            {
+                bigNumberText.Location = new Point(46, 72);
+            }
+            else
+                bigNumberText.Location = new Point(4, 72);
+        }
+        private void MoveSmallPictures()
+        {
+            Random myRnd = new Random();
+            int rndNumber = myRnd.Next(1, 69);
             if (rndNumber == 1)
             {
                 pictureBox1.Visible = false;
@@ -120,37 +174,6 @@ namespace bingo
                 pictureBox10.Visible = false;
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            newGameBtn.Visible = true;
-            bingoBtn.Visible = true;
-            timer2.Stop();
-            
-
-
-        }
-        private void NewGameVisible()
-        {
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = true;
-            pictureBox4.Visible = true;
-            pictureBox5.Visible = true;
-            pictureBox6.Visible = true;
-            pictureBox7.Visible = true;
-            pictureBox8.Visible = true;
-            pictureBox9.Visible = true;
-            pictureBox10.Visible = true;
-            startPicture.Visible = true;
-            newGameBtn.Visible = false;
-            bingoP.Visible = false;
-            bingoBtn.Visible = false;
-        }
-
-        private void bingoBtn_Click(object sender, EventArgs e)
-        {
-            bingoP.Visible = true;
-        }
+        
     }
 }
