@@ -19,6 +19,7 @@ namespace bingo
             InitializeComponent();
             
         }
+        //dodato nesto
 
         private void startBtn_Click(object sender, EventArgs e)
         {
